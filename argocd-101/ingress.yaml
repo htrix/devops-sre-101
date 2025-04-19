@@ -19,8 +19,8 @@ spec:
             name: argocd-server
             port:
                 number: 80
-    host: argocd.robertsilvatech.local
+    host: argocd.htrix.local
   tls:
   - hosts:
-    - argocd.robertsilvatech.local
+    - argocd.htrix.local
     secretName: argocd-secret # do not change, this is provided by Argo CD
